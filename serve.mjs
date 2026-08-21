@@ -2,7 +2,7 @@ import http from "node:http";
 import fs from "node:fs";
 import path from "node:path";
 
-const ROOT = path.resolve("./out");
+const ROOT = path.resolve("./docs");
 const MIME = {
   ".html": "text/html; charset=utf-8", ".js": "application/javascript",
   ".css": "text/css", ".png": "image/png", ".jpg": "image/jpeg",

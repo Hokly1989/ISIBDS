@@ -5,7 +5,7 @@ import path from "node:path";
 import { URL } from "node:url";
 
 const BASE = "https://isibds.koompi.cloud";
-const OUT = path.resolve("./out");
+const OUT = path.resolve("./docs");
 const MAX_PAGES = 200;
 
 const seedPaths = [

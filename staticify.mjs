@@ -1,10 +1,10 @@
-// Convert the Next.js SSR mirror in ./out into a plain, directly-editable
+// Convert the Next.js SSR mirror in ./docs into a plain, directly-editable
 // static HTML/CSS site: download externally-hosted images locally and
 // rewrite references, then strip Next.js hydration <script> tags.
 import fs from "node:fs/promises";
 import path from "node:path";
 
-const OUT = path.resolve("./out");
+const OUT = path.resolve("./docs");
 const IMG_DIR = path.join(OUT, "assets", "img");
 
 async function walkHtml(dir) {

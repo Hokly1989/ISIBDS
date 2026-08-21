@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 
-const OUT = path.resolve("./out");
+const OUT = path.resolve("./docs");
 const IMG_DIR = path.join(OUT, "assets", "img");
 
 async function walkHtml(dir) {
